@@ -45,14 +45,24 @@ h1 {
   color: hsl(233, 13%, 49%);
 }
 
+.price-box.price-box-premium {
+  background-image: linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+  color: #ffffff;
+  transform: scale(1.15);
+}
+
+.price-box.price-box-premium > * {
+  transform: scale(0.869);
+}
+
 .price-box h4 {
   margin: 0;
 }
 
 .price-box p {
-  font-size: 4em;
-  margin: 0;
-  color: hsl(232, 13%, 33%);
+  font-size: 3.5em;
+  margin: 15px 0;
+  font-weight: 700;
 }
 
 .price-box ul {
@@ -64,6 +74,8 @@ h1 {
 .price-box ul li {
   padding: 15px 0;
   border-bottom: 1px solid hsl(234, 14%, 74%);
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .price-box button {
@@ -77,4 +89,17 @@ h1 {
   font-family: 'Monserat', sans-serif;
   margin-top: 10px;
   letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.price-box.price-box-premium button {
+  background-image: none;
+  background-color: #ffffff;
+  color: hsl(237, 63%, 64%);
+}
+
+.price-box.price-box-premium ul,
+.price-box.price-box-premium ul li {
+  border-color: #f0f0f0;
 }
