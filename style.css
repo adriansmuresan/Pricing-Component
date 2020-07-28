@@ -89,6 +89,11 @@ h1 {
   font-size: 3.5em;
   margin: 15px 0;
   font-weight: 700;
+  color: hsl(232, 13%, 33%);
+}
+
+.price-box .monthly {
+  display: none;
 }
 
 .price-box ul {
@@ -128,4 +133,8 @@ h1 {
 .price-box.price-box-premium ul,
 .price-box.price-box-premium ul li {
   border-color: #f0f0f0;
+}
+
+.price-box.price-box-premium p {
+  color: #ffffff;
 }
